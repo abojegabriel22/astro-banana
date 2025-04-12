@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 :root{
     --bg-color: #293562;
@@ -127,6 +128,7 @@ a.nav-link:hover{
 }
 .row-height{
     padding-bottom: 50px;
+    overflow: hidden;
 }
 /* .img-div{
     border: 2px solid red;
@@ -189,8 +191,61 @@ a.nav-link:hover{
     }
 
 }
-/* @media screen and (max-width: 430px){
-    .home{
-        padding-top: 53px;
+/* //////////about section /////////// */
+.sol-coin img{
+    padding-top: 90px;
+    /* padding-left: 20px; */
+}
+.about-p{
+    padding-top: 140px;
+    font-size: 1.5rem;
+}
+
+/* ///////// media query for about section ///////////////// */
+@media screen and (max-width: 1050px){
+    .sol-coin img {
+        padding-top: 97px;
     }
-} */
+    .about-p {
+        padding-top: 100px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .about-p {
+        padding-top: 95px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sol-coin img {
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about-p {
+        padding-top: 48px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* ///////// how to buy section /////////// */
+.margin-middle{
+    /* height: 500px; */
+    border-left: 2px solid yellow;
+}
+.yellow{
+    color: yellow;
+}
+.clipboard{
+    font-size: 25px;
+    color: rgb(181, 181, 31);
+    overflow: hidden;
+}
+.clipboard:hover{
+    cursor: pointer;
+    transform: rotate(360deg); /* add "deg" */
+    transition: transform 0.6s ease;
+}
+.dt-font{
+    font-size: 25px;
+}
