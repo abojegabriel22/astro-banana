@@ -249,3 +249,27 @@ a.nav-link:hover{
 .dt-font{
     font-size: 25px;
 }
+/* ////// media query for buy section ///////// */
+@media screen and (max-width: 800px){
+    .dt-font{
+        font-size: 16px;
+    }
+    .clipboard{
+        font-size: 16px;
+    }
+    .yellow{
+        overflow: scroll;
+    }
+    .buy-banana{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 500px){
+    .illustration-image{
+        scale: 0.8;
+    }
+    .padding-buy{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
