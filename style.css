@@ -273,3 +273,51 @@ a.nav-link:hover{
         padding-right: 20px;
     }
 }
+/* ////////// slider section ////////// */
+.slider{
+    background-color: rgb(21 11 42); 
+    background-image: linear-gradient(to right, rgb(21 11 42), rgb(20, 18, 73));
+    color: white !important;
+    /* height: 500px; */
+    margin-top: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+/* ///////media query for slider ////////// */
+@media screen and (max-width: 800px) {
+    .slider {
+        margin-top: 0;
+        padding-top: 95px;
+        padding-bottom: 83px;
+    }
+    .faqText{
+        padding-top: 45px;
+    }
+    .faqText1{
+        padding-right: 100px;
+    }
+    .faqText2{
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width: 500px) {
+    /* .slider {
+        margin-top: 0;
+        padding-top: 95px;
+        padding-bottom: 83px;
+    } */
+    .faqText{
+        padding-top: 0;
+    }
+    .faqText1{
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .faqText2{
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .fbanana{
+        font-size: 1.5rem;
+    }
+}
