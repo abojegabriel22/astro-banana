@@ -286,7 +286,6 @@ a.nav-link:hover{
 /* ///////media query for slider ////////// */
 @media screen and (max-width: 800px) {
     .slider {
-        margin-top: 0;
         padding-top: 95px;
         padding-bottom: 83px;
     }
@@ -301,11 +300,9 @@ a.nav-link:hover{
     }
 }
 @media screen and (max-width: 500px) {
-    /* .slider {
-        margin-top: 0;
-        padding-top: 95px;
-        padding-bottom: 83px;
-    } */
+    .carousel-item {
+        min-height: 300px; /* or whatever height you want */
+    }    
     .faqText{
         padding-top: 0;
     }
@@ -320,4 +317,9 @@ a.nav-link:hover{
     .fbanana{
         font-size: 1.5rem;
     }
+}
+/* /////// footer section ////// */
+footer{
+    background: var(--second-bg-color);
+    height: 200px;
 }
