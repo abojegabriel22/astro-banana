@@ -321,5 +321,18 @@ a.nav-link:hover{
 /* /////// footer section ////// */
 footer{
     background: var(--second-bg-color);
-    height: 200px;
+    height: 300px;
+}
+.icon-div{
+    padding-top: 100px;
+}
+.media{
+    font-size: 50px;
+    overflow: hidden;
+}
+.media:hover{
+    cursor: pointer;
+    transform: rotate(360deg); /* add "deg" */
+    transition: transform 0.6s ease;
+    overflow: hidden;
 }
