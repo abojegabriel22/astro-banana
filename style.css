@@ -130,13 +130,8 @@ a.nav-link:hover{
     padding-bottom: 50px;
     overflow: hidden;
 }
-/* .img-div{
-    border: 2px solid red;
-} */
 .image img{
-    /* border: 2px solid blue; */
     padding-left: 200px;
-    /* height: 100px; */
 }
 /* ///// media query for home section ///////// */
 @media screen and (max-width: 1050px){
@@ -154,7 +149,7 @@ a.nav-link:hover{
     .img-div {
         display: flex;
         justify-content: center;
-        align-items: center; /* optional, if you want vertical centering too */
+        align-items: center;
     }
     .image img {
         padding-left: 30px;
@@ -181,7 +176,6 @@ a.nav-link:hover{
     
     .image img {
         padding-left: 0px;
-        /* transform: scale(0.7); */
     }
     .text-div {
         padding-left: 40px;
@@ -194,7 +188,6 @@ a.nav-link:hover{
 /* //////////about section /////////// */
 .sol-coin img{
     padding-top: 90px;
-    /* padding-left: 20px; */
 }
 .about-p{
     padding-top: 140px;
@@ -230,7 +223,6 @@ a.nav-link:hover{
 }
 /* ///////// how to buy section /////////// */
 .margin-middle{
-    /* height: 500px; */
     border-left: 2px solid yellow;
 }
 .yellow{
@@ -243,7 +235,7 @@ a.nav-link:hover{
 }
 .clipboard:hover{
     cursor: pointer;
-    transform: rotate(360deg); /* add "deg" */
+    transform: rotate(360deg);
     transition: transform 0.6s ease;
 }
 .dt-font{
@@ -301,7 +293,7 @@ a.nav-link:hover{
 }
 @media screen and (max-width: 500px) {
     .carousel-item {
-        min-height: 300px; /* or whatever height you want */
+        min-height: 300px;
     }    
     .faqText{
         padding-top: 0;
@@ -332,7 +324,7 @@ footer{
 }
 .media:hover{
     cursor: pointer;
-    transform: rotate(360deg); /* add "deg" */
+    transform: rotate(360deg);
     transition: transform 0.6s ease;
     overflow: hidden;
 }
