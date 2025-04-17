@@ -320,6 +320,7 @@ footer{
 }
 .media{
     font-size: 50px;
+    overflow: hidden;
 }
 .media:hover{
     cursor: pointer;
